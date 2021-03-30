@@ -1,16 +1,23 @@
 .header {
-  height: 40px;
-  text-align: center;
-  position: relative;
-  line-height: 40px;
-  padding: 0 10px;
-  border-bottom: 1px solid #ccc;
-  .left {
-    position: absolute;
-    left:0
-  }
-  .right {
-    position: absolute;
-    right:0
-  }
+	height: 46px;
+	text-align: center;
+	position: relative;
+	line-height: 46px;
+	padding: 0 10px;
+	// border-bottom: 1px solid #ccc;
+	background: #f9da56;
+	.left {
+		position: absolute;
+		left: 0;
+	}
+	.right {
+		position: absolute;
+		right: 0;
+	}
+	.back-icon {
+		width: 20px;
+		height: 20px;
+		vertical-align: middle;
+		margin-left: 14px;
+	}
 }

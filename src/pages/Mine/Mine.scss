@@ -1,0 +1,114 @@
+.base-info {
+	background: #f9da56;
+	padding: 30px;
+	padding-bottom: 40px;
+	.avatar {
+		width: 60px;
+		height: 60px;
+		border-radius: 100%;
+		margin-right: 10px;
+	}
+	.nickname {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.bill-total-days-content {
+		background: #fff;
+		border-radius: 50px;
+		padding: 4px 10px;
+		.bill-total-days-icon {
+			width: 18px;
+			height: 18px;
+			margin-right: 6px;
+		}
+		.bill-total-days {
+			font-size: 12px;
+		}
+	}
+}
+
+.stat {
+	margin-top: 30px;
+	.stat-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.stat-item-count {
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 4px;
+		}
+		.stat-item-text {
+			font-size: 14px;
+		}
+	}
+}
+.function-content {
+	padding: 0 20px;
+	margin-top: -26px;
+}
+.card {
+	background-color: #fff;
+	padding: 10px 20px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.card-title {
+	margin-bottom: 20px;
+}
+.card-title-text {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.card-sub-title-text {
+	font-size: 12px;
+	color: #bdbdbd;
+}
+
+.card-title-icon {
+	width: 16px;
+	height: 16px;
+}
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.menu-icon {
+	width: 32px;
+	height: 32px;
+}
+.menu-text {
+	font-size: 12px;
+	color: #333;
+	margin-top: 4px;
+}
+
+.bill-left-month {
+	font-size: 18px;
+}
+
+.bill-left-text {
+	font-size: 12px;
+}
+.bill-right {
+	padding: 0 20px;
+}
+.bill-right-item-text {
+	font-size: 12px;
+	color: #bdbdbd;
+}
+.bill-right-item-money {
+	font-size: 14px;
+	color: #333;
+	margin-top: 4px;
+}
+.line {
+	margin-top: 10px;
+	height: 20px;
+	width: 1px;
+	background-color: #bdbdbd;
+	margin-left: 20px;
+}

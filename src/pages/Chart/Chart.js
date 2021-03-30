@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import Layout from '../../components/Layout/Layout'
 
 class Chart extends Component {
 	render() {
-		return <div>Chart</div>
+		return <Layout>Chart</Layout>
 	}
 }
 

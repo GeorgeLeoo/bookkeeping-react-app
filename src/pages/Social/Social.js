@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import Layout from '../../components/Layout/Layout'
 
 class Social extends Component {
 	render() {
-		return <div>Social</div>
+		return <Layout>Social</Layout>
 	}
 }
 

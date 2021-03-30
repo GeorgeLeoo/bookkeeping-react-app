@@ -1,5 +1,5 @@
 import Setting from '../Setting/Setting'
-import Layout from '../../Layout/Layout'
+import Dashboard from '../../Dashboard/Dashboard'
 import Add from '../Add/Add'
 
 const router = [
@@ -16,8 +16,8 @@ const router = [
 		title: '记账',
 	},
 	{
-		name: 'layout',
-		component: Layout,
+		name: 'dashboard',
+		component: Dashboard,
 	},
 ]
 export default router
