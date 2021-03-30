@@ -1,0 +1,27 @@
+.tab-item {
+  width: 100%;
+  height: 50px;
+  padding: 6px 0;
+  position: relative;
+
+  .label {
+    font-size: 12px;
+    color: #333;
+  }
+  .add-label {
+    font-size: 12px;
+    color: #333;
+    position: relative;
+    top: 9px;
+  }
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+  .add-icon {
+    width: 73.6px;
+    height: 64px;
+    position: absolute;
+    top: -38px;
+  }
+}
